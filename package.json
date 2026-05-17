@@ -1,0 +1,20 @@
+{
+  "name": "person-tracker-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers API for Person Tracker",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create person-tracker-db --local",
+    "db:deploy": "wrangler d1 execute person-tracker-db --file=./schema.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20260517.1",
+    "wrangler": "^4.92.0"
+  }
+}

@@ -1,0 +1,8 @@
+name = "person-tracker-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "person-tracker-db"
+database_id = "b61adfdb-ca6a-4243-a09c-c15a61a2cb37"
